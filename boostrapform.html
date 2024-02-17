@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Student Form</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+
+
+</head>
+
+ <body>
+
+<div class="container bg-success ">
+
+
+<form action="">
+
+    <div class="mt-5 mb-3">
+        <label for="fname" class="form-label">Firstnname:</label>
+        <input type="text" id="fname" class="form-control" placeholder="Enter firstname" required="required">
+
+    </div>
+
+
+    <div class="mb-3">
+        <label for="sname" class="form-label">Surname:</label>
+        <input type="text" id="sname" class="form-control" placeholder="Enter surname" required="required">
+
+    </div>
+
+
+
+    <div class="mb-3">
+        <label for="email" class="form-label">Email Address:</label>
+        <input type="email" id="email" class="form-control" placeholder="abc@gmail" required="required">
+
+    </div>
+
+
+
+    <div class="mb-3">
+        <label for="pwd" class="form-label">Password:</label>
+        <input type="password" id="pwd" class="form-control" placeholder="Enter password" required="required">
+
+    </div>
+
+    <div class="p-3">
+        <button class="btn btn-primary">Register</button>
+    </div>
+
+
+</form>
+</div>
+
+<br><br><br>
+
+ <div class="container">
+
+     <form action="">
+
+         <div class="row mb-3">
+
+             <div class="col-6">
+             <label for="emal" class="form-label"><strong>Email</strong></label>
+             <input type="email" id="emal" class="form-control" required="required">
+         </div>
+
+         <div class="col-6">
+             <label for="mdp" class="form-label"><strong>Password</strong></label>
+             <input type="password" id="mdp" class="form-control" required="required">
+         </div>
+
+         </div>
+
+         <div class="mb-3">
+             <label for="ad" class="form-label"><strong>Address</strong></label>
+             <input type="text" id="ad" class="form-control" placeholder="1234 Main St" required="required">
+         </div>
+
+          <div class="mb-3">
+             <label for="add" class="form-label"><strong>Address2</strong></label>
+             <input type="text" id="add" class="form-control" placeholder="Apartment, studio, or floor " required="required">
+         </div>
+
+         <!---div dernier--->
+
+
+         <div class="row">
+
+              <div class="col-6">
+
+                  <label for="ct" class="form-label"><strong>City</strong></label>
+                  <input type="text" id="ct" class="form-control" required="required">
+          </div>
+
+           <div class="col-4">
+
+
+                <label for="st" class="form-label"><strong>state</strong></label>
+               <select name="state" id="st" class="form-select" required="required">
+
+                   <option value="choose" ><strong>Choose...</strong></option>
+
+                   <option value="kinshasa">Kinshasa</option>
+                   
+               </select>
+
+           </div>
+
+          <div class="col-2">
+
+              <label for="pz" class="form-label"><strong>Zip</strong></label>
+                  <input type="text" id="pz" class="form-control" required="required">
+
+          </div>
+
+
+         </div>
+
+<!--fin div dernier-->
+
+         <div class="mt-2">
+
+             <input type="checkbox" id="rem">
+         <label for="rem"><strong>Remember me</strong></label>
+
+         </div>
+
+          <div class="my-2">
+               <button class="btn btn-primary">Submit</button>
+           </div>
+
+
+     </form>
+
+
+
+
+ </div>
+
+
+</body>
+</html>
